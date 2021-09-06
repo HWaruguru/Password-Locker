@@ -1,3 +1,7 @@
+import pyperclip
+import random
+import string
+
 class User:
     """
     Class that creates user accounts and saves the user's information.
