@@ -1,3 +1,7 @@
+import pyperclip
+import random
+import string
+
 class Credential:
     """
       Class that creates account credentials, generates passwords and saves the information.
