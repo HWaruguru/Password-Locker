@@ -43,7 +43,7 @@ As a user I would like:
 ## Running the Application
 * To run the application, in your pyinquirer and docopt terminal:
 
-        -> python pass_locker_cmd.py -i
+        -> python main.py -i
         -> type help  to see the options available
         
 ## Testing the Application

@@ -148,12 +148,13 @@ class HpassInteractive(cmd.Cmd):
             """
         \t Commands available:
         \t help -> \t show help message \n
-        \t Signup  -> \t Signup - requires username and password\n
+        \t signup  -> \t signup - requires username and password\n
         \t login -> \t login - requires username and password \n
         \t add_credential -> \t add a redential account \n
         \t copy_credential -> \t copy a credentials username and password \n
         \t show_credentials -> \t show all saved credentials \n
         \t delete_credential -> \t delete a credential account \n
+        \t logout -> \t quits the commandline \n
         """
         )
 
