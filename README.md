@@ -9,7 +9,7 @@ Password Locker is a pyinquirer and docopt terminal run python application that 
 These are the behaviours/features that the application implements for use by a user.
 
 As a user I would like:
-* To create an account with my details - log in and password
+* To create an account with my detailR - log in and password
 * Store my existing login credentials
 * Generate a password for a new credential/account
 * Copy my credentials to the clipboard
@@ -17,7 +17,7 @@ As a user I would like:
 ## Specifications
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
-| Display the pyinquirer and docopt terminal | **In pyinquirer and docstring terminal: python pass_locker_cmd.py -i** | Welcome to Hpass! (type help for a list of commands.) |
+| Display the pyinquirer and docopt terminal | **In pyinquirer and docstring terminal: python3 main.py -i -i** | Welcome to Hpass! (type help for a list of commands.) |
 | Display prompt for navigating to an option | **Enter: help** | Commands available:help -> show help message, Signup->Signup - requires username and password, login ->login - requires username and password, add_credential ->add a redential account, copy_credential ->copy a credentials username and password, show_credentials ->show all saved credentials, delete_credential ->delete a credential account  |
 | Display prompt for sign up and creating credentials | **Enter: signup** | create new or add existing? - choose new, Enter the account name, Enter the account password (Optional) - enter a preffered password  or Enter to generate a password,  Prefered password length? - choose a number between 12 and 50 for a prefferd password length |
 | Display a table of credentials | **Enter: show_credentials** | Prints a table of saved credentials |
@@ -43,7 +43,11 @@ As a user I would like:
 ## Running the Application
 * To run the application, in your pyinquirer and docopt terminal:
 
-        -> python main.py -i
+        -> pip install docopt
+        -> pip install pyinquirer
+        -> pip install terminaltables
+        -> pip install pyperclip 
+        -> python3 main.py -i
         -> type help  to see the options available
         
 ## Testing the Application
